@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #17152e;
+    color: #f4f0ff;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-shell {
+    width: 100%;
+    max-width: 960px;
+    padding: 20px;
+    text-align: center;
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    background: #d9c5a0;
+    border: 3px solid #8ee3ef;
+    border-radius: 12px;
+
+    box-shadow: 0 0 25px rgba(142, 227, 239, 0.15);
+}
